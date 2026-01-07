@@ -115,7 +115,7 @@ const App = () => {
                 data.push({
                   EmploymentID: `EMP${empId.toString().padStart(6, '0')}`,
                   EstablishmentID: estId,
-                  DateKey: '20180630',
+                  DateKey: '2018-06-30',
                   Division: division.name,
                   District: `${division.name}_District`,
                   SizeClass: size.name,
@@ -189,7 +189,7 @@ const App = () => {
             
             data.push({
               EstablishmentID: estId,
-              DateKey: '20180630',
+              DateKey: '2018-06-30',
               Division: division.name,
               District: `${division.name}_District`,
               SizeClass: size.name,
@@ -266,7 +266,7 @@ const App = () => {
           
           data.push({
             EstablishmentID: estId,
-            DateKey: '20180630',
+            DateKey: '2018-06-30',
             Division: division.name,
             District: `${division.name}_District`,
             SizeClass: size.name,
